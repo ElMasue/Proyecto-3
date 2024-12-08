@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="../img/Logo masus.jpg" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <img id="menu-toggle" src="../img/logo.jpg" alt="Menú" title="Menú" />
+
+      <div id="sidebar">
+        <nav>
+          <ul id="menu">
+            <li><a href="../index.html">Pagina Principal</a></li>
+            <li><a href="../pag/cohes/cars.html">Nuestros Coches</a></li>
+            <li><a href="../pag/offers.html">Ofertas</a></li>
+            <li><a href="../pag/concessionaire.html">Concesionarios</a></li>
+            <li>
+              <a href="#">Masus Contigo</a>
+              <ul>
+                <li><a href="../pag/Accesories.html">Accesorios</a></li>
+                <li><a href="../pag/clients.html">Atención al Cliente</a></li>
+                <li><a href="../pag/manual.html">Manuales</a></li>
+              </ul>
+            </li>
+            <li><a href="../pag/review.html">Calificaciones</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="overlay"></div>
+    </header>
+    <div class="container">
+      <h1>Datos introducidos en el formulario</h1>
+      <div class="data-container">
+        <p class="data-item"><strong>Nombre:</strong></p>
+        <p class="data-value" id="name"></p>
+        <p class="data-item"><strong>Coche Favorito:</strong></p>
+        <p class="data-value" id="car"></p>
+        <p class="data-item"><strong>Email:</strong></p>
+        <p class="data-value" id="email"></p>
+      </div>
+    </div>
+    <script src="../JS/showdata.js"></script>
+    <script src="../JS/menu.js"></script>
+
+  </body>
+</html>
