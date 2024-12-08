@@ -1,85 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Valoranos!!</title>
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="shortcut icon" href="../img/Logo.jpg">
-</head>
-<body>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="shortcut icon" href="../img/Logo.jpg" />
+  </head>
+  <body>
     <header>
-        <img id="menu-toggle" src="../img/logo.jpg" alt="Menú" title="Menú" />
-  
-        <div id="sidebar">
-          <nav>
-            <ul id="menu">
-              <li><a href="../index.html">Pagina Principal</a></li>
-              <li><a href="../pag/cohes/cars.html">Nuestros Coches</a></li>
-              <li><a href="../pag/offers.html">Ofertas</a></li>
-              <li><a href="../pag/concessionaire.html">Concesionarios</a></li>
-              <li>
-                <a href="#">Masus Contigo</a>
-                <ul>
-                  <li><a href="../pag/Accesories.html">Accesorios</a></li>
-                  <li><a href="../pag/clients.html">Atención al Cliente</a></li>
-                  <li><a href="../pag/manual.html">Manuales</a></li>
-                </ul>
-              </li>
-              <li><a href="../pag/review.html">Calificaciones</a></li>
-            </ul>
-          </nav>
-        </div>
-  
-        <div id="overlay"></div>
-      </header>
-    <form action="showdata.html"  id="personal-form">
-        <fieldset>
-            <legend>-¿Que le ha parecido?-</legend>
-            <table>
-                <tr>
-                    <th>
-                        <label for="name">Nombre*</label>
-                    </th>
-                    <td>
-                        <input type="text" name="name" placeholder="Introduzca nombre y apellidos" id="name">
-                        <span id="form-name">* campo requerido</span>                 
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        <label for="car">Coche Favorito*</label>
-                    </th>
-                    <td>
-                        <input type="text" name="car" id="car">
-                        <span id="form-car">* campo requerido</span>                 
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        <label for="email">Correo Electronico*</label>
-                    </th>
-                    <td>
-                        <input type="text" name="email" id="email" >
-                        <span id="form-email">* campo requerido</span>
-                        <span id="form-email-invalid">* Correo no valido</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <input type="submit" value="Enviar" id="Enviar">
-                        <input type="reset" value="Cancelar" id="Cancelar">
-                    </td>
-                </tr>
-            </table>
-        </fieldset>
-    </form>    
-    <footer>
-        <p>Copyright 2024 - Samuel Corado Cañete</p>
-        <p>Todos los derechos reservados</p>
-    </footer>
-<script src="../JS/validate.js"></script>
-<script src="../JS/menu.js"></script>
+      <img id="menu-toggle" src="../img/logo.jpg" alt="Menú" title="Menú" />
 
-</body>
+      <div id="sidebar">
+        <nav>
+          <ul id="menu">
+            <li><a href="../index.html">Pagina Principal</a></li>
+            <li><a href="../pag/cohes/cars.html">Nuestros Coches</a></li>
+            <li><a href="../pag/offers.html">Ofertas</a></li>
+            <li><a href="../pag/concessionaire.html">Concesionarios</a></li>
+            <li>
+              <a href="#">Masus Contigo</a>
+              <ul>
+                <li><a href="../pag/Accesories.html">Accesorios</a></li>
+                <li><a href="../pag/clients.html">Atención al Cliente</a></li>
+                <li><a href="../pag/manual.html">Manuales</a></li>
+              </ul>
+            </li>
+            <li><a href="../pag/review.html">Calificaciones</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="overlay"></div>
+    </header>
+    <form action="showdata.html" id="personal-form">
+      <fieldset>
+        <legend>-¿Que le ha parecido?-</legend>
+        <table>
+          <tr>
+            <th>
+              <label for="name">Nombre*</label>
+            </th>
+            <td>
+              <input
+                type="text"
+                name="name"
+                placeholder="Introduzca nombre y apellidos"
+                id="name"
+              />
+              <span id="form-name">* campo requerido</span>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="car">Coche Favorito*</label>
+            </th>
+            <td>
+              <input type="text" name="car" id="car" />
+              <span id="form-car">* campo requerido</span>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="email">Correo Electronico*</label>
+            </th>
+            <td>
+              <input type="text" name="email" id="email" />
+              <span id="form-email">* campo requerido</span>
+              <span id="form-email-invalid">* Correo no valido</span>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="submit" value="Enviar" id="Enviar" />
+              <input type="reset" value="Cancelar" id="Cancelar" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <footer>
+      <p>Copyright 2024 - Samuel Corado Cañete</p>
+      <p>Todos los derechos reservados</p>
+    </footer>
+    <script src="../JS/validate.js"></script>
+    <script src="../JS/menu.js"></script>
+  </body>
 </html>
